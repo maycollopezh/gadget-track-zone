@@ -339,9 +339,9 @@ const Index = () => {
             </div>
             <div>
               <h5 className="font-semibold mb-4">Contacto</h5>
-              <p className="text-gray-300 mb-2">📞 +1 (555) 123-4567</p>
-              <p className="text-gray-300 mb-2">📧 info@gadgetzone.com</p>
-              <p className="text-gray-300">📍 123 Tech Street, Silicon Valley</p>
+              <p className="text-gray-300 mb-2">📞 +591 12345678</p>
+              <p className="text-gray-300 mb-2">📧 infogadgetzone@gmail.com</p>
+              <p className="text-gray-300">📍 El Alto, La Paz</p>
             </div>
             <div>
               <h5 className="font-semibold mb-4">Horarios</h5>

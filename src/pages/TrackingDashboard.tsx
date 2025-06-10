@@ -33,9 +33,9 @@ const TrackingDashboard = () => {
     },
     customer: {
       name: "María González",
-      email: "maria.gonzalez@email.com",
-      phone: "+1 (555) 987-6543",
-      address: "456 Oak Avenue, Tech City, TC 12345"
+      email: "maria.gonzalez@gmail.com",
+      phone: "+591 12345678",
+      address: "El Alto, La Paz"
     },
     status: {
       current: "En Reparación",
@@ -45,7 +45,7 @@ const TrackingDashboard = () => {
     },
     timeline: [
       {
-        date: "2024-05-28",
+        date: "2025-05-28",
         time: "10:30 AM",
         status: "Recibido",
         description: "Dispositivo recibido y registrado en el sistema",
@@ -53,7 +53,7 @@ const TrackingDashboard = () => {
         completed: true
       },
       {
-        date: "2024-05-29",
+        date: "2025-05-29",
         time: "2:15 PM",
         status: "Diagnóstico",
         description: "Diagnóstico completo realizado. Pantalla y batería requieren reemplazo",
@@ -61,7 +61,7 @@ const TrackingDashboard = () => {
         completed: true
       },
       {
-        date: "2024-05-30",
+        date: "2025-05-30",
         time: "11:45 AM",
         status: "En Reparación",
         description: "Iniciado reemplazo de pantalla OLED. Proceso en curso",
@@ -70,7 +70,7 @@ const TrackingDashboard = () => {
         current: true
       },
       {
-        date: "2024-06-03",
+        date: "2025-06-03",
         time: "Estimado",
         status: "Pruebas",
         description: "Pruebas de calidad y funcionamiento",
@@ -78,7 +78,7 @@ const TrackingDashboard = () => {
         completed: false
       },
       {
-        date: "2024-06-05",
+        date: "2025-06-05",
         time: "Estimado",
         status: "Listo",
         description: "Dispositivo listo para entrega",
@@ -87,21 +87,21 @@ const TrackingDashboard = () => {
       }
     ],
     photos: [
-      { id: 1, url: "/api/placeholder/300/200", description: "Estado inicial del dispositivo", date: "2024-05-28" },
-      { id: 2, url: "/api/placeholder/300/200", description: "Daño en pantalla - Vista frontal", date: "2024-05-28" },
-      { id: 3, url: "/api/placeholder/300/200", description: "Proceso de desmontaje", date: "2024-05-30" },
-      { id: 4, url: "/api/placeholder/300/200", description: "Instalación de nueva pantalla", date: "2024-05-30" }
+      { id: 1, url: "/api/placeholder/300/200", description: "Estado inicial del dispositivo", date: "2025-05-28" },
+      { id: 2, url: "/api/placeholder/300/200", description: "Daño en pantalla - Vista frontal", date: "2025-05-28" },
+      { id: 3, url: "/api/placeholder/300/200", description: "Proceso de desmontaje", date: "2025-05-30" },
+      { id: 4, url: "/api/placeholder/300/200", description: "Instalación de nueva pantalla", date: "2025-05-30" }
     ],
     history: [
       {
-        date: "2023-11-15",
+        date: "2024-11-15",
         issue: "Cambio de batería",
         cost: "$89.99",
         technician: "Carlos Ruiz",
         status: "Completado"
       },
       {
-        date: "2023-08-22",
+        date: "2024-08-22",
         issue: "Limpieza de puerto de carga",
         cost: "$29.99",
         technician: "Ana López",
